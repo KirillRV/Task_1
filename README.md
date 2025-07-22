@@ -24,7 +24,7 @@ This Java project creates an Excel (.xlsx) file with tabular user data, highligh
 
 1. Compile the project:
 
-   ```bash
+   bash
    javac -cp ".;path/to/poi-library/*" task_1/ExcelGenerator.java
 ````
 
