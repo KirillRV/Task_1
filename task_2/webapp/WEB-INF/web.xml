@@ -5,7 +5,7 @@
     <!-- RegisterServlet configuration -->
     <servlet>
         <servlet-name>RegisterServlet</servlet-name>
-        <servlet-class>com.calculator.servlet.RegisterServlet</servlet-class>
+        <servlet-class>task.servlet.RegisterServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -16,7 +16,7 @@
     <!-- LoginServlet configuration -->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.calculator.servlet.LoginServlet</servlet-class>
+        <servlet-class>task.servlet.LoginServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -27,7 +27,7 @@
     <!-- Calculator Servlet -->
     <servlet>
         <servlet-name>CalcServlet</servlet-name>
-        <servlet-class>com.calculator.servlet.CalcServlet</servlet-class>
+        <servlet-class>task.servlet.CalcServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -38,7 +38,7 @@
     <!-- Authentication Filter -->
     <filter>
         <filter-name>AuthFilter</filter-name>
-        <filter-class>com.calculator.filter.AuthFilter</filter-class>
+        <filter-class>task.filter.AuthFilter</filter-class>
     </filter>
 
     <filter-mapping>
@@ -52,7 +52,7 @@
 
     <servlet>
         <servlet-name>UserListServlet</servlet-name>
-        <servlet-class>com.calculator.servlet.UserListServlet</servlet-class>
+        <servlet-class>task.servlet.UserListServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -62,7 +62,7 @@
 
     <servlet>
         <servlet-name>ClearHistoryServlet</servlet-name>
-        <servlet-class>com.calculator.servlet.ClearHistoryServlet</servlet-class>
+        <servlet-class>task.servlet.ClearHistoryServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -72,7 +72,7 @@
 
     <servlet>
         <servlet-name>UsersServlet</servlet-name>
-        <servlet-class>com.calculator.servlet.UsersServlet</servlet-class>
+        <servlet-class>task.servlet.UsersServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -93,7 +93,7 @@
     <!-- Custom 404 error page -->
     <error-page>
         <error-code>404</error-code>
-        <location>/webapp/jsp/error404.jsp</location>
+        <location>/jsp/error404.jsp</location>
     </error-page>
 
 </web-app>
